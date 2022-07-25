@@ -15,7 +15,7 @@ class Config {
 				name: 'Auto',
 				icon: 'auto-mode',
 				lightHour: '7',
-				darkHour: '18'
+				darkHour: '19'
 			}
 		};
 
@@ -66,40 +66,15 @@ class Config {
 	getSearchEngines() {
 
 		const searchEngines = {
-			'startpage': {
-				name: 'Startpage',
-				prefix: 'https://www.startpage.com/do/dsearch?query=',
-				icon: 'startpage'
-			},
-			'qwant': {
-				name: 'Qwant',
-				prefix: 'https://www.qwant.com/?q=',
-				icon: 'qwant'
-			},
-			'ecosia': {
-				name: 'Ecosia',
-				prefix: 'https://www.ecosia.org/search?q=',
-				icon: 'ecosia'
-			},
 			'duckduckgo': {
 				name: 'Duckduckgo',
 				prefix: 'https://duckduckgo.com/?q=',
 				icon: 'duckduckgo'
 			},
-			'yahoo': {
-				name: 'Yahoo',
-				prefix: 'https://search.yahoo.com/search?p=',
-				icon: 'yahoo'
-			},
 			'google': {
 				name: 'Google',
 				prefix: 'https://www.google.com/search?q=',
 				icon: 'google'
-			},
-			'bing': {
-				name: 'Bing',
-				prefix: 'https://www.bing.com/search?q=',
-				icon: 'bing'
 			}
 		};
 
@@ -159,33 +134,9 @@ class Config {
 				category: 'social'
 			},
 			{
-				site: 'Bitbucket',
-				icon: 'bitbucket',
-				url: 'https://bitbucket.org/',
-				category: 'development'
-			},
-			{
-				site: 'Gitlab',
-				icon: 'gitlab',
-				url: 'https://gitlab.com/',
-				category: 'development'
-			},
-			{
-				site: 'Deviantart',
-				icon: 'deviantart',
-				url: 'https://deviantart.com/',
-				category: 'design'
-			},
-			{
 				site: 'Duckduckgo',
 				icon: 'duckduckgo',
 				url: 'https://duckduckgo.com/',
-				category: 'search engine'
-			},
-			{
-				site: 'Ecosia',
-				icon: 'ecosia',
-				url: 'https://ecosia.org/',
 				category: 'search engine'
 			},
 			{
@@ -201,28 +152,10 @@ class Config {
 				category: 'information'
 			},
 			{
-				site: 'Unsplash',
-				icon: 'unsplash',
-				url: 'https://unsplash.com/',
-				category: 'design'
-			},
-			{
 				site: 'Twitch',
 				icon: 'twitch',
 				url: 'https://twitch.tv/',
 				category: 'media'
-			},
-			{
-				site: 'Yahoo',
-				icon: 'yahoo',
-				url: 'https://mail.yahoo.com/',
-				category: 'search engine'
-			},
-			{
-				site: 'Bing',
-				icon: 'bing',
-				url: 'https://bing.com',
-				category: 'search engine'
 			},
 			{
 				site: 'Material.io',
@@ -237,18 +170,6 @@ class Config {
 				category: 'media'
 			},
 			{
-				site: 'Office 365',
-				icon: 'office365',
-				url: 'https://office.com/',
-				category: 'information'
-			},
-			{
-				site: '4chan',
-				icon: '4chan',
-				url: 'https://4chan.org/',
-				category: 'social'
-			},
-			{
 				site: 'Discord',
 				icon: 'discord',
 				url: 'https://discord.com/',
@@ -259,30 +180,6 @@ class Config {
 				icon: 'spotify',
 				url: 'https://spotify.com/',
 				category: 'media'
-			},
-			{
-				site: 'Ebay',
-				icon: 'ebay',
-				url: 'https://ebay.com/',
-				category: 'shop'
-			},
-			{
-				site: 'JSFiddle',
-				icon: 'jsfiddle',
-				url: 'https://jsfiddle.net/',
-				category: 'development'
-			},
-			{
-				site: 'ArchWiki',
-				icon: 'archwiki',
-				url: 'https://wiki.archlinux.org/',
-				category: 'information'
-			},
-			{
-				site: 'Figma',
-				icon: 'figma',
-				url: 'https://figma.com/',
-				category: 'design'
 			},
 			{
 				site: 'Stackoverflow',
@@ -315,12 +212,6 @@ class Config {
 				category: 'social'
 			},
 			{
-				site: 'Icons8',
-				icon: 'icons8',
-				url: 'https://icons8.com/',
-				category: 'design'
-			},
-			{
 				site: 'Markdown Cheatsheet',
 				icon: 'markdown',
 				url: 'https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet/',
@@ -333,22 +224,10 @@ class Config {
 				category: 'development'
 			},
 			{
-				site: 'Keycode',
-				icon: 'keycode',
-				url: 'https://keycode.info/',
-				category: 'development'
-			},
-			{
 				site: 'Soundcloud',
 				icon: 'soundcloud',
 				url: 'https://soundcloud.com/',
 				category: 'media'
-			},
-			{
-				site: 'Amazon',
-				icon: 'amazon',
-				url: 'https://amazon.com/',
-				category: 'shop'
 			},
 			{
 				site: 'Flaticon',
@@ -373,18 +252,6 @@ class Config {
 				icon: 'mdn',
 				url: 'https://developer.mozilla.org/',
 				category: 'development'
-			},
-			{
-				site: 'Qwant',
-				icon: 'qwant',
-				url: 'https://qwant.com/',
-				category: 'search engine'
-			},
-			{
-				site: 'Startpage',
-				icon: 'startpage',
-				url: 'https://startpage.com/',
-				category: 'search engine'
 			}
 		];
 
@@ -396,11 +263,6 @@ class Config {
 		// A list of websites that will be generated and put on the Panel
 		const panelSites = [
 			{
-				site: 'Reddit',
-				icon: 'reddit',
-				url: 'https://reddit.com/'
-			},
-			{
 				site: 'Github',
 				icon: 'github',
 				url: 'https://github.com/'
@@ -411,19 +273,9 @@ class Config {
 				url: 'https://facebook.com/'
 			},
 			{
-				site: 'Gmail',
-				icon: 'gmail',
-				url: 'https://mail.google.com/'
-			},
-			{
 				site: 'Youtube',
 				icon: 'youtube',
 				url: 'https://youtube.com/'
-			},
-			{
-				site: 'GDrive',
-				icon: 'gdrive',
-				url: 'https://drive.google.com/'
 			},
 			{
 				site: 'Twitter',
@@ -431,9 +283,14 @@ class Config {
 				url: 'https://twitter.com/'
 			},
 			{
-				site: 'Material.io',
-				icon: 'materialio',
-				url: 'https://material.io/'
+				site: 'Reddit',
+				icon: 'reddit',
+				url: 'https://reddit.com/'
+			},
+			{
+				site: 'Gmail',
+				icon: 'gmail',
+				url: 'https://mail.google.com/'
 			}
 		];
 
